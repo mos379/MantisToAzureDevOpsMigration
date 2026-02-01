@@ -1,5 +1,7 @@
 # Mantis to Azure DevOps Migration Tool
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support%20my%20work-orange.svg)](https://buymeacoffee.com/mos379)
+
 This repository contains scripts to migrate issues from **Mantis Bug Tracker** to **Azure DevOps** (ADO) using the ADO REST API.
 
 It handles the end-to-end process: exporting data from a Mantis SQL dump (without needing a running Mantis instance) and importing it directly into Azure DevOps Work Items, preserving history, attachments, and metadata.
@@ -132,3 +134,9 @@ python3 scripts/import_to_ado.py \
 
 *   **"Unknown identity"**: If the script cannot assign a user (e.g., email mismatch), it will log a warning, leave the item **Unassigned**, and create it anyway. Check the "Mantis Migration Metadata" comment for the original owner.
 *   **State Errors**: If you see errors about "State not supported", the script attempts to create items as "New" first, then updates them to the target state. Ensure your ADO process template supports the mapped states.
+
+## License & Copyright
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 ITs4BM.
