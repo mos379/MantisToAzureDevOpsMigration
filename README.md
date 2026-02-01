@@ -1,5 +1,7 @@
 # Mantis to Azure DevOps Migration Tool
 
+![Mantis to ADO Banner](assets/MantisToAzureDevOpsMigrationBanner.png)
+
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support%20my%20work-orange.svg)](https://buymeacoffee.com/mos379)
 
 This repository contains scripts to migrate issues from **Mantis Bug Tracker** to **Azure DevOps** (ADO) using the ADO REST API.
